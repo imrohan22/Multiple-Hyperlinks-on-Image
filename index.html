@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Multiple Hyperlinks on a single image.
+@Rohan Shah - Novumlogic.com
+
+We'll achieve this using <area> tag.
+Area tag has following attributes .
+<area shape="area shape"
+    coords="area coordinates"
+    href="area hyperlink" or nohref="nohref"
+    target="hyperlink target"
+    title="area title"
+    alt="alternate text"/>
+-->
+<html>
+    <head>
+        <title>Different links on single image</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <img src="images/logos.jpg" alt="Logos" usemap="#logos" />
+        <map name="logos">
+            <!--            
+            Three types of area one can define - coordinates for each of them are different.
+            For circle : x1,y1,r ==> x1,y1 is center of circle and r is radius.
+            For Rect : x1,y1,x2,y2 ==> x1,y1 is top-left point and x2,y2 is bottom-right point.
+            For Poly : x1,y1,x2,y2,x3,y3.... ==> xi,yi are coordinates of corner point.
+            -->
+            <area alt="" title="" href="http://www.stumbleupon.com/" shape="poly" coords="25,16,87,18,86,76,27,76" />
+            <area alt="" title="" href="http://www.skype.com/" shape="poly" coords="107,52,208,56,208,96,110,96" />
+            <area alt="" title="" href="http://www.youtube.com/" shape="poly" coords="181,18,182,48,257,48,257,15" />
+            <area alt="" title="" href="http://www.google.com/" shape="poly" coords="304,23,432,24,435,69,305,71" />
+            <area alt="" title="" href="http://www.wikipedia.com/" shape="poly" coords="462,12,464,98,535,98,532,7" />
+            <area alt="" title="" href="http://www.blogger.com/" shape="poly" coords="496,116,556,116,556,175,495,177" />
+            <area alt="" title="" href="http://www.yahoo.com/" shape="poly" coords="251,87,369,86,371,116,253,114" />
+            <area alt="" title="" href="http://www.flickr.com/" shape="poly" coords="147,120,227,121,227,149,148,151" />
+            <area alt="" title="" href="http://www.digg.com/" shape="poly" coords="245,136,319,135,318,176,246,176" />
+            <area alt="" title="" href="http://wordpress.org/" shape="poly" coords="386,121,389,182,446,182,446,122" />
+            <area alt="" title="" href="http://www.ebay.com/" shape="poly" coords="117,129,106,173,21,177,20,133" />
+        </map>
+    </body>
+</html>

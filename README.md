@@ -1,5 +1,5 @@
 # Multiple-Hyperlinks-on-Image
-####Have different links on single image.
+#### Have different links on single image.
 
 Create multiple "Hot Spots" linking within a single image, without slicing any image for linking.
 
@@ -29,7 +29,7 @@ You can also set coordinates of image using online tool.
 I recommend this [online-tool](https://www.image-maps.com/).
 
 
-###Summary
+### Summary
 Get away from headache of adjusting images using code.
 
 Have fun and play with images now.
